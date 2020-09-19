@@ -1,0 +1,12 @@
+{
+  "name": "canvasimage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d CANVASIMAGE"
+  },
+  "homepage": "https://zeay.github.io/canvasimage",
+  "author": "Kumar Saurabh",
+  "license": "ISC"
+}
