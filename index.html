@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        /* canvas {
+            border: 1px solid black;
+        } */
+        button{ 
+            border: 1px solid blue;
+            background-color: orange;
+            color: aliceblue;
+            margin: 20px;
+            padding: 10px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="square">Square ( 1000 X 1000 )</button>
+        <button id="vertical">Vertical ( 300 X 600 )</button>
+        <button id="horizontal">Horizontal ( 468 X 200 )</button>
+    </div>
+    <div class="puttingInf">
+
+    </div>
+    <br>
+    <canvas id="canvasArea"></canvas>
+    <br>
+    <div>
+        <button id="json1">Load JSON 1</button>
+        <button id="json2">Load JSON 2</button>
+        <button id="json3">Download JSON</button>
+    </div>
+    <div class="puttingInf">
+
+    </div>
+    <br>
+    <br>
+    <script src="fileSaver.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
